@@ -1,7 +1,7 @@
 "use client";
 import { Carousel, Typography, Button } from "@material-tailwind/react";
  
-export default function CarouselWithContent() {
+export default function CarouselWithContent(props) {
   return (
     <Carousel className="rounded-xl">
       <div className="relative w-full h-svh">
@@ -21,6 +21,7 @@ export default function CarouselWithContent() {
               lg:text-5xl 
               font-Lobster"
             >
+              
               The Best Kindergarden School for your child
             </Typography>
             <Typography
@@ -29,6 +30,7 @@ export default function CarouselWithContent() {
               className="mb-12 opacity-80
               text-base md:text-xl lg:text-2xl"
             >
+              
               It is not so much for its beauty that the forest makes a claim
               upon men&apos;s hearts, as for that subtle something, that quality
               of air that emanation from old trees, that so wonderfully changes

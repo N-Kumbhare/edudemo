@@ -3,13 +3,14 @@ import { Fragment } from 'react'
 import React from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import {ArrowLongRightIcon, Bars3Icon, BellIcon, XMarkIcon} from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 
 const navigation = [
-    { name: 'Home', href: '#', current: true },
-    { name: 'About Us', href: '#', current: false },
-    { name: 'Classes', href: '#', current: false },
-    { name: 'Pages', href: '#', current: false },
+    { name: 'Home', href: '/', current: true },
+    { name: 'About Us', href: '/about', current: false },
+    // { name: 'Classes', href: '#', current: false },
+    // { name: 'Pages', href: '#', current: false },
     { name: 'Contact Us', href: '#', current: false },
   ]
   
@@ -47,7 +48,7 @@ function Navbar() {
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
                           href={item.href}
                           className={classNames(
@@ -57,7 +58,7 @@ function Navbar() {
                           aria-current={item.current ? 'page' : undefined}
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>

@@ -2,14 +2,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faBacteria, faCamera, faCameraRetro, faCoffee, faDownLeftAndUpRightToCenter, faEnvelope, faGreaterThan, faLocationPin, faPhone, faTShirt } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
- 
-
+import Link from 'next/link'
 
 function FooterSection() {
   return (
-    <div className=' bg-[#103741] text-white p-10 mx-auto w-full flex flex-col items-center'>
-        <div className="container py-5 ">
-            <div className="gap-10 grid grid-cols-4 justify-center">
+    <div className=' bg-[#103741] text-white mx-auto w-full flex flex-col items-center justify-center p-20 relative'>
+        <div className="container py-5">
+            <div className="gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center">
                 <div className='grid-cols-3 flex flex-col gap-4'>
                     <h3 className='text-white mb-4 font-Lobster font-bold text-4xl'>Get In Touch</h3>
                     <div className='flex gap-4 text-[#6c757d] font-Heebo text-xl font-medium'>
@@ -34,7 +33,7 @@ function FooterSection() {
                 </div>
                 <div className='grid-cols-3 flex flex-col gap-1' >
                     <h3 className='text-white mb-4 font-Lobster font-bold text-4xl'>Quick Links</h3>
-                    <a href="" className='text-[#6c757d] font-Heebo text-xl font-medium items-center gap-2 flex hover:text-[#FE5D37]'><FontAwesomeIcon className='w-3 h-3' icon={faGreaterThan}/>About Us</a>
+                    <Link href="/about" className='text-[#6c757d] font-Heebo text-xl font-medium items-center gap-2 flex hover:text-[#FE5D37]'> <FontAwesomeIcon className='w-3 h-3' icon={faGreaterThan}/> About Us</Link>
                     <a href="" className='text-[#6c757d] font-Heebo text-xl font-medium items-center gap-2 flex hover:text-[#FE5D37]'><FontAwesomeIcon className='w-3 h-3' icon={faGreaterThan}/>Contact Us</a>
                     <a href="" className='text-[#6c757d] font-Heebo text-xl font-medium items-center gap-2 flex hover:text-[#FE5D37]'><FontAwesomeIcon className='w-3 h-3' icon={faGreaterThan}/>Our Services</a>
                     <a href="" className='text-[#6c757d] font-Heebo text-xl font-medium items-center gap-2 flex hover:text-[#FE5D37]'><FontAwesomeIcon className='w-3 h-3' icon={faGreaterThan}/>Privacy Policy</a>
@@ -65,16 +64,16 @@ function FooterSection() {
             <div className='px-6 text-lg border-t-2 border-[#6c757d]'>
                 <div className='flex justify-between mt-7'>
                 <div className="flex text-center mb-3">
-                            &copy; <a className="border-b-2 hover:text-[#FE5D37]" href="#">Your Site Name</a><span className='text-[#6c757d]'>&nbsp; All Right Reserved. &nbsp;All Right Reserved. &nbsp;Designed by &nbsp;</span>
+                            {/* &copy; <a className="border-b-2 hover:text-[#FE5D37]" href="#">Your Site Name</a><span className='text-[#6c757d]'>&nbsp; All Right Reserved. &nbsp;All Right Reserved. &nbsp;Designed by &nbsp;</span>
                             
-							<a className="border-b-2 hover:text-[#FE5D37]" href="https://htmlcodex.com">HTML Codex</a>
+							<a className="border-b-2 hover:text-[#FE5D37]" href="https://htmlcodex.com">HTML Codex</a> */}
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             <div className="flex">
-                                <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">Home</a>
-                                <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">Cookies</a>
+                                <a className='mr-4 pr-4  hover:text-[#FE5D37]' href="/">Home</a>
+                                {/* <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">Cookies</a>
                                 <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">Help</a>
-                                <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">FQAs</a>
+                                <a className='mr-4 pr-4 border-r-2 border-[#6c757d] hover:text-[#FE5D37]' href="">FQAs</a> */}
                             </div>
                         </div>
                 </div>

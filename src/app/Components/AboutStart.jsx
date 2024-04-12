@@ -7,7 +7,7 @@ function AboutStart() {
     <div className='flex flex-col mt-0 w-full items-center justify-center p-20 relative'>
         <div className='container grid grid-cols-1 lg:grid-cols-2 gap-6'>
             <div className='flex flex-col gap-4'>
-                <h1 className='text-[#103741] font-bold text-xl md:text-3xl lg:text-5xl font-Lobster'>Learn More About Our Work And Our Cultural Activities</h1>
+                <h1 className='text-[#103741] font-bold text-3xl md:text-4xl lg:text-5xl font-Lobster'>Learn More About Our Work And Our Cultural Activities</h1>
                 <p className='text-md md:text-xl lg:text-2xl'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 <p className='text-md md:text-xl lg:text-2xl'>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 <div>

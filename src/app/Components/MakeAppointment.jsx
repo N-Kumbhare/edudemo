@@ -2,11 +2,11 @@ import React from 'react'
 
 function MakeAppointment() {
     return (
-        <div className='flex m-10 bg-[#FFF5F3] mx-10 gap-9'>
-            <div className='flex flex-col  justify-center text-wrap w-1/2 p-20 gap-6'>
-                <h3 className='text-[#103741] text-4xl font-bold font-Lobster'>Make An Appointment</h3>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 bg-[#FFF5F3] mx-4 gap-2'>
+            <div className='flex flex-col  justify-center text-wrap p-10 gap-4'>
+                <h3 className='text-center font-Lobster font-bold text-3xl md:text-4xl lg:text-5xl mb-4'>Make An Appointment</h3>
                 <form action="#">
-                    <div className='grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 '>
                         <div>
                             <label for="first-name" className="block text-sm font-semibold leading-6 text-gray-900">First name</label>
                             <div className="mt-2.5">
@@ -50,8 +50,8 @@ function MakeAppointment() {
                     <span className='text-2xl'>Submit</span>
                 </div>
             </div>
-            <div className='w-1/2 '>
-                <img className="rounded-lg h-full" src="https://ik.imagekit.io/panmac/tr:f-auto,w-740,pr-true//bcd02f72-b50c-0179-8b4b-5e44f5340bd4/6421ad14-0b83-45db-a279-7a52c98f13ec/colouring-pages-for-kids-hader.jpg" alt="" />
+            <div className=' '>
+                <img className="rounded-lg h-full w-full" src="https://ik.imagekit.io/panmac/tr:f-auto,w-740,pr-true//bcd02f72-b50c-0179-8b4b-5e44f5340bd4/6421ad14-0b83-45db-a279-7a52c98f13ec/colouring-pages-for-kids-hader.jpg" alt="" />
             </div>
 
         </div>

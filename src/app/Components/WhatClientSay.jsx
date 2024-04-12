@@ -6,7 +6,7 @@ function WhatClientSay() {
     <div className="my-6 font-[sans-serif] text-[#333]">
             <div className="max-w-4xl mx-auto relative">
                 <div className="mx-auto text-center">
-                    <h2 className="text-3xl font-extrabold">Testimonials</h2>
+                    <h2 className="text-center font-Lobster font-bold text-3xl md:text-4xl lg:text-5xl mb-4">Testimonials</h2>
                 </div>
                 <div className="max-w-xl mt-12 mx-auto">
                     <div className="flex flex-col items-center text-center">
@@ -16,8 +16,8 @@ function WhatClientSay() {
                             <p className="text-xs text-gray-400 font-bold mt-1">Gardian</p>
                         </div>
                     </div>
-                    <div className="mt-4 text-center">
-                        <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus eveniet omnis obcaecati! Velit suscipit adipisci vero nemo, dignissimos id fuga alias optio?</p>
+                    <div className="mt-4 text-center p-3">
+                        <p className="text-md leading-relaxed font-Heebo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus eveniet omnis obcaecati! Velit suscipit adipisci vero nemo, dignissimos id fuga alias optio?</p>
                     </div>
                     <div className="flex justify-center space-x-1 mt-4">
                         <svg className="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none"
