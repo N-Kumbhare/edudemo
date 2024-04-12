@@ -36,10 +36,10 @@ function SchoolClasses() {
         },
     ]
   return (
-    <div className='container mx-auto flex flex-col items-center justify-center px-12 relative gap-6 text-[#103741] my-5'>
+    <div className='container mx-auto flex flex-col items-center justify-center pl-8 relative gap-6 text-[#103741] my-5'>
         <div className='flex flex-col gap-6'>
             <h1 className='text-center font-Lobster font-bold text-3xl md:text-4xl lg:text-5xl'>Why Us</h1>
-            <p className='text-center text-wrap text-md md:text-xl lg:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente eligendi culpa ad aut reprehenderit deleniti dignissimos repellat accusamus, facere a quod quasi.</p>
+            {/* <p className='text-center text-wrap text-md md:text-xl lg:text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente eligendi culpa ad aut reprehenderit deleniti dignissimos repellat accusamus, facere a quod quasi.</p> */}
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full flex-wrap gap-6'>
             {
